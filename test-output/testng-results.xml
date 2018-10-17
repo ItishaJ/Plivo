@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65782" started-at="2018-10-17T15:33:01Z" finished-at="2018-10-17T15:34:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65782" started-at="2018-10-17T15:33:01Z" finished-at="2018-10-17T15:34:07Z">
+      <class name="automationFramework.TestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.TestCase@13deb50e]" name="setUp" is-config="true" duration-ms="9984" started-at="2018-10-17T15:33:01Z" finished-at="2018-10-17T15:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Openurl()[pri:1, instance:automationFramework.TestCase@13deb50e]" name="Openurl" duration-ms="31982" started-at="2018-10-17T15:33:11Z" finished-at="2018-10-17T15:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openurl -->
+        <test-method status="PASS" signature="create()[pri:2, instance:automationFramework.TestCase@13deb50e]" name="create" duration-ms="9108" started-at="2018-10-17T15:33:43Z" depends-on-methods="automationFramework.TestCase.Openurl" finished-at="2018-10-17T15:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="start()[pri:3, instance:automationFramework.TestCase@13deb50e]" name="start" duration-ms="2116" started-at="2018-10-17T15:33:52Z" depends-on-methods="automationFramework.TestCase.create" finished-at="2018-10-17T15:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="createPage()[pri:4, instance:automationFramework.TestCase@13deb50e]" name="createPage" duration-ms="569" started-at="2018-10-17T15:33:54Z" depends-on-methods="automationFramework.TestCase.start" finished-at="2018-10-17T15:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPage -->
+        <test-method status="PASS" signature="SMS()[pri:5, instance:automationFramework.TestCase@13deb50e]" name="SMS" duration-ms="6149" started-at="2018-10-17T15:33:55Z" depends-on-methods="automationFramework.TestCase.createPage" finished-at="2018-10-17T15:34:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SMS -->
+        <test-method status="PASS" signature="Email()[pri:6, instance:automationFramework.TestCase@13deb50e]" name="Email" duration-ms="2879" started-at="2018-10-17T15:34:01Z" depends-on-methods="automationFramework.TestCase.createPage" finished-at="2018-10-17T15:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email -->
+        <test-method status="PASS" signature="dragExitAppCase()[pri:7, instance:automationFramework.TestCase@13deb50e]" name="dragExitAppCase" duration-ms="2956" started-at="2018-10-17T15:34:04Z" depends-on-methods="automationFramework.TestCase.Email" finished-at="2018-10-17T15:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragExitAppCase -->
+        <test-method status="PASS" signature="close()[pri:8, instance:automationFramework.TestCase@13deb50e]" name="close" duration-ms="1" started-at="2018-10-17T15:34:07Z" finished-at="2018-10-17T15:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- automationFramework.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
